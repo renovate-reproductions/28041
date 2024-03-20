@@ -8,7 +8,7 @@
       {
         "matchFileNames": ["without-artifactory/**"],
         "groupName": "packages from nuget.org"
-      },
+      }
     ]
   }
   
