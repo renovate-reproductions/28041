@@ -1,0 +1,14 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+      {
+        "matchFileNames": ["with-artifactory/**"],
+        "groupName": "packages from artifactory"
+      },
+      {
+        "matchFileNames": ["without-artifactory/**"],
+        "groupName": "packages from nuget.org"
+      },
+    ]
+  }
+  
